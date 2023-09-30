@@ -1,8 +1,8 @@
-# Zero-day Attack Detection and Prevention System.
+# Autonomous AI based Zero-day Attack Detection and Prevention System.
 
 ## Overview
 
-This project aims to detect and prevent zero-day network attacks in real-time. Zero-day attacks exploit unknown vulnerabilities and pose significant threats to network security. Our system utilizes machine learning and network flow analysis to identify and block malicious activity, enhancing cybersecurity.
+This project's objective is to create a threat detection engine capable of identifying and proactively countering Zero-day attacks in real-time, utilizing advanced machine learning techniques. The final product is an Electron application, built upon the widely adopted Chromium-based framework, popularly used in building standalone desktop applications.
 
 ## Features
 
@@ -27,8 +27,13 @@ Datasets used for training and testing purposes are CSE-CIC-IDS 2017 and 2018 da
 
 ## Prerequisites
 
+To run this application, you'll need the following prerequisites:
+
 - Python 3.x
 - Required libraries
+
+  Please refer to the [Tools and Requirements](https://github.com/srujan-landeri/HACX/tree/main/Tools%20and%20Requirements) for detailed information on the required libraries.
+
 
 ## Installation
 
