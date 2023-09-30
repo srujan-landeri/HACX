@@ -1,4 +1,4 @@
-# Zero-day Attack Detection and Prevention System by HACX
+# Zero-day Attack Detection and Prevention System.
 
 ## Overview
 
