@@ -34,17 +34,6 @@ To run this application, you'll need the following prerequisites:
 
   Please refer to the [Tools and Requirements](https://github.com/srujan-landeri/HACX/tree/main/Tools%20and%20Requirements) for detailed information on the required libraries.
 
-
-## Installation
-
-1. Clone the repository.
-
-2. Install Python and required libraries.
-
-3. Install npcap (for windows).
-
-4. Install the application using the provided setup file.
-
 ## Contributing
 
 Contributions to this project are highly encouraged. 
