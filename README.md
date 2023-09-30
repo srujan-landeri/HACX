@@ -48,7 +48,7 @@ We use the CSE-CIC-IDS 2017 and 2018 datasets for training and testing.
 
 ## Contributing
 
-We welcome contributions and collaboration.
+Contributions to this project are highly encouraged. 
 
 ## License
 
