@@ -1,6 +1,6 @@
 ## Datasets
 
-The training dataset used in this paper is CSE-CIC-IDS 2017 and 2018 Data Set. These datasets are valuable resources for training and testing our Zero-day Attack Detection and Prevention System. They contain a diverse range of intrusion types and provide the foundation for our model's accuracy and effectiveness.
+The training dataset used in this paper is CSE-CIC-IDS 2018 Data Set. These datasets are valuable resources for training and testing the Zero-day Attack Detection and Prevention System. They contain a diverse range of intrusion types and provide the foundation for our model's accuracy and effectiveness.
 
 ### Dataset Details
 
@@ -12,17 +12,16 @@ The training dataset used in this paper is CSE-CIC-IDS 2017 and 2018 Data Set. T
     - SSH-BruteForce
     - BruteForce-Web
     - BruteForce-XSS
-    - SQL Injection
     - DDoS-HOIC attack
     - DDoS-LOIC-UDP attack
-    - DDoS-LOIC-HTTP attacks
-    - Infiltration
+    - DDoS-LOIC-HTTP attack
+    - Infiltration attack
     - DoS-Hulk attack
     - DoS-SlowHTTPTest attack
     - DoS-GoldenEye attack
     - DoS-Slowloris attack
 
-- **Source**: These datasets were collected from servers at the Canadian Institute of Cybersecurity.
+- **Source**: These datasets were collected from kaggle created by Communications Security Establishment (CSE) & the Canadian Institute for Cybersecurity (CIC).
 
 - **Open Source**: The datasets have been made open source and are accessible for research and development purposes.
 
@@ -34,10 +33,9 @@ The training dataset used in this paper is CSE-CIC-IDS 2017 and 2018 Data Set. T
 
 ### Dataset Links
 
-You can access the datasets via the following links:
+You can access the dataset via the following links:
 
-- [CSE-CIC-IDS 2017 Dataset](insert_link_here)
-- [CSE-CIC-IDS 2018 Dataset](insert_link_here)
+- [CSE-CIC-IDS 2018 Dataset](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv/data)https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv/data)
 
-Please download the datasets and refer to their documentation for further details on their structure and usage.
+- [More Information regarding the Dataset](https://www.unb.ca/cic/datasets/ids-2018.html)
 
