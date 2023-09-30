@@ -1,0 +1,19 @@
+1 - The below string is a hexadecimal string which is seen in the output of command: cat Bin.exe
+
+%4c%69%30%75%4c%6d%41%75%4c%69%35%67%4c%53%34%75%59%43%34%74%4c%69%35%67%4c%69%34%74%4c%6d%41%74%4c%69%31%67%4c%53%30%75%4c%57%41%75%4c%53%31%67%4c%6d%41%75%4c%53%34%75%59%43%30%74%59%43%34%75%4c%6d%41%74%4c%69%35%67%4c%69%30%75%4c%6d%41%74%4c%69%35%67%4c%69%34%74%4c%6d%41%75%4c%53%35%67%4c%53%34%74%59%43%34%74%4c%69%35%67%4c%69%30%74%59%43%30%75%59%43%30%74%4c%6d%41%75%4c%69%35%67%4c%53%35%67%4c%69%34%75%4c%57%41%74%4c%69%31%67%4c%69%30%74%4c%57%41%75%4c%53%31%67%4c%6d%41%74%4c%69%31%67%4c%69%30%74%4c%57%41%75%4c%53%35%67%4c%53%30%75%4c%57%41%74%4c%6d%41%74%4c%69%30%75%59%43%34%75%4c%6d%41%74%4c%69%35%67%4c%69%30%74%4c%57%41%75%4c%69%30%75%59%43%30%75%4c%57%41%75%4c%53%31%67%4c%6d%41%75%4c%53%35%67%4c%69%34%74%4c%6d%41%74%4c%69%31%67%4c%69%30%74%59%43%30%75%4c%53%35%67%4c%53%34%74%59%43%34%75%4c%6d%41%74%4c%6d%41%74%4c%69%31%67%4c%53%31%67%4c%69%34%75%59%43%30%75%4c%6d%41%74%4c%69%31%67%4c%69%34%74%4c%6d%41%75%4c%69%35%67%4c%53%34%75%59%43%34%74%4c%69%35%67%4c%53%30%3d
+
+2 - On converting the hexadecimal string to ASCII form we get the below output [base64 encoded]
+
+Li0uLmAuLi5gLs4uYC4tLi5gLi4tLmAtLi1gLS0uLWAuLS1gLmAuLS4uYC0tYC4uLmAtLi5gLi0uLmAtLi5gLi4tLmAuLS5gLs4tYC4tLi5gLi0tYC0uYC0tLmAuLi5gLs5gLs4tYC4tLi5gLj0uLWAuLS5gLj0tLi4uWAtLi1gLj0tLi0uLWAuLS1gLmAuLi1gLj0tLi0uLWAuLS5gLj0uLWMtLi4tLmAuLj0tLi0uYC4uLmAuLi5gLj0tLi0uYAwuLWAuLS1gLj0tLj0tLi5gLj0tLi4uLmAuLi1gLj0tLi0uLWMtLi5gLj0tLi4tLmAuLS4gLmAuLi5gLVM0tYC0tY34uLmAuLmAtLi0uYz4uLmAtLi5gLj0uLWAuLS0uLmAuLi5gLj0uYDAuLWAuLS1gLj0tLi0uLWMtLi51gLs5gLTM0tY34tLmAtLmAtLi1gLXM0tYC0tY34uLmAuLmAtLmAtLi0uLXM0tLmAuLi5gLs4tYC4tLi5gLXM0
+
+3 - Now decode the above text using command base64 -d file.txt and we get text in form of morse code 
+
+.-..`...`-..`.-..`..-.`-.-`--.-`.--`.`.-..`--`...`-..`.-..`-..`..-.`.-.`-.-`.-..`.--`-.`--.`...`-.`...-`-.-`.---`.--`.`-.-`.---`.-.`--.-`-.`-.-.`...`-..`.---`..-.`-.-`.--`.`.-.`..-.`-.-`.--`-.-.`-.-`...`-.`-.-`--`...`-..`-.-`..-.`...`-..`.-..`--
+
+4 - Use any online tool to convert morse code to a normal text and you get the text
+
+LSDLFKQWELMSDLDFRKLWNGSNVKJWEKJRQNCSDJFKWERFKWCKSNKMSDKFSDLM
+
+5 - On giving above text as input we get the below key
+
+444e873497c2f189587befa6ccb2636ca6585517cef423eb8152fca0f09f4035
