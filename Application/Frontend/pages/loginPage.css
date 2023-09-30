@@ -1,0 +1,177 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Inter',sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.App{
+    width: 1280px;
+    height: 832px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name{
+    width: 250px;
+    height: 61px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 56px;
+    color: #00B3FF;
+}
+
+.caption{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #646161;
+    height: 24px;
+    width: 320px;
+}
+
+.info-container{
+    height: 400px;
+    margin-left:150px;
+}
+
+.main-container{
+    margin-block:100px;
+}
+
+.main-container input, .main-container input::placeholder{
+    margin-block:10px;
+    width: 300px;
+    height: 28px;
+    outline:none;
+    border:none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    position: relative;
+    margin-left: 40px;
+}
+
+.main-container button{
+    margin-block:30px;
+    width: 175px;
+    height: 50px;
+    background: #00B2FF;
+    border-radius: 10px;
+    border:none;
+    font-size:15px;    
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+    position: relative;
+    text-align: left;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.main-container button:hover{
+    background: #00A0E3;
+}
+
+.main-container img{
+    position: absolute;
+    z-index: 2;
+}
+
+.name-container, .mail-container, .button-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom:0px;
+    border-bottom: 1px solid #000000;
+    margin-block:10px;
+}
+
+.button-container{
+    border: none;
+}
+
+.name-container img{
+    top:14px;
+    left:3px;
+}
+
+.mail-container img{
+    top:9px;
+}
+
+.button-container img{
+    right: 180px;
+    top:48px;
+    width: 25px;
+}
+
+.notification{
+    position: absolute;
+    bottom:20px;
+    right:15px;
+    overflow: hidden;
+    padding:20px;
+    height:90px;
+    width:300px;
+    background-color: rgb(29, 29, 29);
+    color:white;
+    border-radius: 20px;
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.notification h1{
+    font-weight: 300;
+    font-size:25px;
+    margin-left:7px;
+}
+
+.notification p{
+    font-weight: 300;
+    font-size:15px;
+    padding-inline:2px;
+    margin-block:10px;
+}
+
+.notification div {
+    display: flex;
+    align-items: center;
+}
+
+.notification img{
+    height: 22px;
+}

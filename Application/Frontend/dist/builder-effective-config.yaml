@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.defender.io
+productName: defender.io
+target: NSIS
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: false
+files: []
+electronVersion: 25.1.0

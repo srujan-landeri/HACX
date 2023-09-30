@@ -1,0 +1,37 @@
+{
+  "name": "defender.io",
+  "version": "1.0.0",
+  "description": "The Defender you all need",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "build",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Tony",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.defender.io",
+    "productName": "defender.io",
+    "target": "NSIS",
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": false
+    }
+  },
+  "directory": {
+    "output": "build"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "socket.io": "^4.6.2",
+    "sudo-prompt": "^9.2.1",
+    "tree-kill": "^1.2.2",
+    "ws": "^8.13.0"
+  }
+}

@@ -1,0 +1,169 @@
+
+.upload-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height:80%;
+    width:100%;
+}
+
+input[type=file]{
+    display: none;
+}
+
+.upload-section-text h1{
+    font-size:25.5px;
+    color:#242424;
+    font-weight: 400;
+}
+
+.upload-section-text p{
+    font-size:50px;
+    color:#242424;
+    margin-right:30px;
+}
+
+.upload-container{
+    border:2px dashed black;
+    height: 300px;
+    width:300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+}
+
+.upload-container img{
+    margin-bottom:15px;
+}
+
+.upload-container span{
+    width:200px;
+    text-align: center;
+}
+
+.dragged {
+    /* Style to indicate drag over state */
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.help{
+    margin-top:5px;
+    display: flex;
+    width:219px;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+    margin-bottom: 30px;
+}
+
+.help span{
+    font-size:17px;
+    color:rgb(0, 187, 255);
+    font-weight: 600;
+}
+
+.help img{
+    height:25px;
+    margin-inline:13px;
+}
+
+.help-card{
+    position:absolute;
+    height: 300px;
+    width:500px;
+    background-color: #FFFFFF;
+    display: none;
+    flex-direction: column;
+    border-radius: 8px;
+    padding:40px 50px;
+    box-shadow: #242424 1px 1px 10px 1px;
+    box-sizing: border-box;
+}
+
+.help-card-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:rgb(0, 0, 0) 1px solid;
+    padding-bottom: 10px;
+}
+
+.help-card-header img{
+    height:25px;
+    cursor: pointer;
+}
+
+.help-card-body ul{
+    padding:10% 20px;
+    list-style-type:square;
+}
+
+.file-info {
+    height: 150px;
+    overflow: auto;
+    padding-block-end:10px;
+  }
+  
+  .file-info::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  .file-info::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .file-info::-webkit-scrollbar-thumb {
+    background-color: #363634;
+    border-radius: 4px;
+  }
+  
+  .file-info::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+
+.file-info > span{
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.file-info > span span{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.file-info p{
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    margin-top:5px;
+}
+
+.file-info p span{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.attack-details{
+    margin-block:10px;
+    padding-right: 10px;
+}
+
+.span-heading{
+    font-size:18px;
+    font-weight: 500;
+}
+
+.span-heading span{
+    font-size:22px;
+    font-weight: 500;
+    color:red;
+}
