@@ -1,0 +1,20 @@
+# Nmap 7.93 scan initiated Thu Apr  6 23:16:05 2023 as: nmap -oN open_ports.txt kmit.in
+Nmap scan report for kmit.in (206.54.190.30)
+Host is up (0.29s latency).
+rDNS record for 206.54.190.30: cpanel9.c.fozzy.com
+Not shown: 983 filtered tcp ports (no-response), 5 filtered tcp ports (host-unreach)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+554/tcp  open  rtsp
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+1723/tcp open  pptp
+
+# Nmap done at Thu Apr  6 23:17:08 2023 -- 1 IP address (1 host up) scanned in 63.23 seconds
