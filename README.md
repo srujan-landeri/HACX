@@ -21,17 +21,9 @@ This project aims to detect and prevent zero-day network attacks in real-time. Z
 
 4. **Blocking**: Malicious connections trigger OS-level blocking, preventing further compromise.
 
-## Usage
-
-1. Install Python 3.x and required libraries.
-   
-2. Clone this repository.
-   
-3. Run the system and monitor network traffic.
-
 ## Datasets
 
-We use the CSE-CIC-IDS 2017 and 2018 datasets for training and testing.
+Datasets used for training and testing purposes are CSE-CIC-IDS 2017 and 2018 datasets.
 
 ## Prerequisites
 
