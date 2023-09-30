@@ -35,7 +35,6 @@ The training dataset used in this paper is CSE-CIC-IDS 2018 Data Set. These data
 
 You can access the dataset via the following links:
 
-- [CSE-CIC-IDS 2018 Dataset]((https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv/data)https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv/data)
-
+- [CSE-CIC-IDS 2018 Dataset](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv/data)
 - [More Information regarding the Dataset](https://www.unb.ca/cic/datasets/ids-2018.html)
 
