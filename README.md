@@ -31,6 +31,7 @@ To run this application, you'll need the following prerequisites:
 
 - Python 3.x
 - Required libraries
+- Required tools
 
   Please refer to the [Tools and Requirements](https://github.com/srujan-landeri/HACX/tree/main/Tools%20and%20Requirements) for detailed information on the required libraries.
 
