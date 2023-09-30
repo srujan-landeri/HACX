@@ -1,0 +1,8 @@
+netifaces==0.11.0
+numpy==1.22.4
+pandas==1.5.3
+pandas==2.0.1
+scikit_learn==1.2.0
+watchdog==3.0.0
+websockets==11.0.3
+winotify==1.1.0
