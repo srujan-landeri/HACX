@@ -36,7 +36,9 @@ Datasets used for training and testing purposes are CSE-CIC-IDS 2017 and 2018 da
 
 2. Install Python and required libraries.
 
-3. Run the system.
+3. Install npcap (for windows).
+
+4. Install the application using the provided setup file.
 
 ## Contributing
 
