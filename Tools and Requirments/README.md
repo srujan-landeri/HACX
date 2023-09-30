@@ -1,6 +1,18 @@
-## Tools and Python libraries used
+## Tools and Libraries Requirements
 
-This Zero-day Attack Detection and Prevention System utilizes several Python libraries to achieve its functionality. Here are the details of the libraries used:
+**This application relies on the following Tools and python libraries to achieve its functionalities:**
+
+### Tools Required
+
+1. **cicflowmeter (version 0.1.6)**:
+   - [Installation Guide](https://cicflowmeter.com/installation)
+   
+2. **npcap (Windows specific)**:
+   - [Download and Installation](https://npcap.com/#download)
+
+   Note: If you are using macOS, you do not need to install npcap as macOS has a built-in network capture tool called libcap.
+
+### Libraries Used
 
 - **asyncio**: A library for asynchronous programming, essential for handling concurrent tasks and network operations.
 
@@ -24,9 +36,9 @@ This Zero-day Attack Detection and Prevention System utilizes several Python lib
 
 - **watchdog.events**: Part of the Watchdog library, used for monitoring file system events.
 
-- **watchdog.observers**: Another part of the Watchdog library,which is used for observing file system changes.
+- **watchdog.observers**: Another part of the Watchdog library, used for observing file system changes.
 
-- **winotify**: A library to toast Windows notifications.
+- **winotify**: A library for working with Windows notifications.
 
 - **datetime**: A library for working with date and time data, often used for timestamping and formatting.
 
