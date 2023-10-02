@@ -7,7 +7,7 @@ This project's objective is to create a threat detection engine capable of ident
 ## Features
 
 - Real-time network traffic monitoring
-- Two-layer machine learning model
+- Two-layered architecture 
 - Anomaly detection using LOF, Isolation Forest.
 - Integration with native OS blocking technologies.
 
