@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project's objective is to create a threat detection engine capable of identifying and proactively countering Zero-day attacks in real-time, utilizing advanced machine learning techniques. The final product is an Electron application, built upon the widely adopted Chromium-based framework, popularly used in building standalone desktop applications.
+This project's objective is to create a threat detection engine capable of identifying and countering Zero-day attacks in real-time, utilizing advanced machine learning techniques. The final product is an Electron application, built upon the widely adopted Chromium-based framework, popularly used in building standalone desktop applications.
 
 ## Features
 
