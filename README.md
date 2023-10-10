@@ -1,3 +1,4 @@
+
 # Autonomous AI based Zero-day Attack Detection and Prevention System.
 
 ## Overview
@@ -34,6 +35,15 @@ To run this application, you'll need the following prerequisites:
 - Required tools
 
   Please refer to the [Tools and Requirements](https://github.com/srujan-landeri/HACX/tree/main/Tools%20and%20Requirements) for detailed information on the required libraries.
+
+## Application
+
+### Installation and Real-time Monitoring
+https://github.com/srujan-landeri/HACX/assets/66351075/3274a3b5-b3ec-4967-8178-23c40fdd2869
+
+### Statistics and Notifications
+https://github.com/srujan-landeri/HACX/assets/66351075/259d27f1-08dd-431a-81f4-092b64bf0171
+
 
 ## Contributing
 
